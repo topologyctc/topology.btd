@@ -4,11 +4,7 @@ const DB_KEY='topology_ctc_v2';
 
 function defaultDB(){
   return {
-    users:[
-      {id:'u_admin',name:'Admin',email:'admin@topology.edu',password:'admin',role:'admin'},
-      {id:'u_teacher',name:'Teacher',email:'teacher@topology.edu',password:'teacher',role:'teacher'},
-      {id:'u_student',name:'Student',email:'student@topology.edu',password:'student',role:'student',studentId:'s_default'}
-    ],
+    
     students:[
       {id:'s_default',fullName:'Default Student',course:'Intro to IT',phone:'0911000000'}
     ],
